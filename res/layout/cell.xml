@@ -3,14 +3,13 @@
     android:id="@+id/cell_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" android:background="@drawable/cell_selector">
 
     <TextView
         android:id="@+id/cell_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="Large Text"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:text="Large Text" android:textSize="18dp"/>
 
 </LinearLayout>

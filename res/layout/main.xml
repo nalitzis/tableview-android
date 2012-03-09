@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical" android:background="@color/black">
 
     <ListView
         android:id="@+id/mylistview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" android:listSelector="@color/test_color">
+        android:layout_height="wrap_content" android:listSelector="@color/test_color" android:divider="@drawable/cell_selector">
     </ListView>
 
 </LinearLayout>
